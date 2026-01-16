@@ -1,31 +1,31 @@
-# BLOG-PHP-OO
-PHP MYSQL DOCKER POO
-# Meu Blog Pessoal (PHP OO)
+# 📝 Blog Full Stack (PHP OO + Docker)
 
-Este projeto é um sistema de blog dinâmico desenvolvido em PHP utilizando o paradigma de Orientação a Objetos. A aplicação consome dados de um banco MySQL externo e foi containerizada com Docker para facilitar o deploy em nuvem.
+Este projeto é um sistema de blog dinâmico desenvolvido em PHP utilizando o paradigma de **Orientação a Objetos**. A aplicação consome dados de um banco MySQL externo e foi totalmente containerizada com Docker, garantindo um ambiente de produção moderno e seguro.
+
+---
+
+## 🔗 Link de Acesso
+**Clique no link abaixo para visualizar o projeto online:** 👉 [https://blog-php-oo.onrender.com](https://blog-php-oo.onrender.com)
+
+---
 
 ## 🛠 Tecnologias Utilizadas
 
 As principais ferramentas e linguagens aplicadas neste projeto foram:
 
-- **PHP 8.2**: Linguagem de back-end utilizada com extensão `mysqli` e Orientação a Objetos.
-- **MySQL**: Banco de dados relacional (Hospedado no Aiven).
-- **Docker**: Utilizado para criar a imagem do servidor (Apache + PHP) garantindo que o ambiente de produção (Render) seja idêntico ao de desenvolvimento.
-- **HTML5 & CSS3**: Estrutura semântica e estilização.
-- **W3.CSS**: Framework CSS utilizado para agilizar o design responsivo e componentes visuais (cards, botões, grid).
-- **Apache**: Servidor web configurado via Dockerfile.
-- **Git**: Controle de versão.
+- **PHP 8.2**: Back-end robusto com extensão `mysqli` e Orientação a Objetos.
+- **MySQL**: Banco de dados relacional (Hospedado na nuvem via **Aiven**).
+- **Docker**: Containerização do servidor (Apache + PHP) para portabilidade total.
+- **W3.CSS**: Framework CSS para design responsivo e componentes modernos.
+- **Render**: Plataforma de Cloud utilizada para o deploy e infraestrutura.
 
-## 🚀 Funcionalidades
+## 🚀 Funcionalidades e Diferenciais
 
-- **Conexão Segura**: Utiliza variáveis de ambiente (`ENV`) para proteger as credenciais do banco de dados.
-- **Renderização Dinâmica**: O conteúdo (postagens, apresentações) é carregado diretamente do banco de dados.
-- **Arquitetura Modular**: O código é dividido em componentes (Header, Body, Footer) para facilitar a manutenção.
+- **Conexão Segura**: Uso de variáveis de ambiente para proteger credenciais sensíveis.
+- **Infraestrutura como Código**: Dockerfile personalizado para gerenciar dependências do servidor.
+- **Design Responsivo**: Interface adaptável para dispositivos móveis e desktops.
+- **Gestão de Dados Dinâmica**: Carregamento automático de postagens via banco de dados remoto.
 
-## ☁️ Deploy
-
-O projeto está hospedado no **Render**, conectado a um banco de dados **Aiven**, utilizando integração contínua via GitHub.
 
 ---
-
 _Desenvolvido para fins de estudo e portfólio._
